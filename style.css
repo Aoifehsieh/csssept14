@@ -1,0 +1,31 @@
+p{
+  color: black;
+  /* also color: rbg()*/
+  text-align: left;
+  text-align-last: left;
+  direction: rtl;
+  unicode-bidi: isolate-overide;
+  font-size: 36px;
+  font-family: cursive, sans-serif, "times new roman";
+  border: 5px dashed cyan
+  
+}
+
+h1{
+  color: #a0b082;
+  font-size: 48px;
+  font-family: "times new roman";
+  background-color: magenta
+  
+}
+
+body{
+  background: url("media/Gen-2 1699191800, M..., Reverse.mp4");
+}
+
+.box{
+  text-align: center;
+  color: gold;
+  
+  
+}
