@@ -1,0 +1,59 @@
+div{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  margin: 70px
+}
+
+
+
+
+
+
+
+
+.ball1 {
+  width: 80px;
+  height: 80px;
+  background-color: green;
+  animation: bounce 0.00001s infinite;
+}
+
+
+
+
+
+.ball2 {
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+  animation: bounce 0.00001s infinite;
+  box-shadow: 0 60px 9990px white;
+}
+
+
+
+
+
+
+.ball3 {
+  width: 80px;
+  height: 80px;
+  background-color: orange;
+  animation: bounce 0.00001s infinite;
+}
+
+
+
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0)
+  }
+
+  100% {
+    transform: translateY(1000px)
+  }
+}
