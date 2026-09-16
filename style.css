@@ -11,21 +11,308 @@ p{
   
 }
 
-h1{
-  color: #a0b082;
-  font-size: 48px;
-  font-family: "times new roman";
-  background-color: magenta
-  
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 body{
   background: url("media/inkemu.mp4");
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bighead{
+  position: sticky;
+  z-index: 2
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .box{
   text-align: center;
   color: gold;
+  z-index: -1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box2{
+  text-align: center;
+  color: black;
+  border-style: dotted; 
+  border-radius: 15px;
+  border-color: green;
+  border-width: 7px 11px;
+  background-image: url(media/drgmd.png);
+  animation: bounce 0.0001s infinite;
+}
+
+
+
+
+
+
+
+
+
+.boxdf{
+  display: flex;
+  flex-direction: columu;
+  text-align: left;
+  flex-flow: column wrap;
+  
+  
   
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.button{
+  backgrou
+  
+button{
+  background-color: blue;
+  color: white;
+  transition: background-color 0.5s ease;
+  }
+button: hover{
+    background-color: red;
+  }
+
+}
+
+
+
+@keyframes bounce{
+  
+  
+  0%{
+    
+    
+    
+    transform: translateY(0)
+    
+    
+    
+  }
+  
+  
+  
+  
+  50%{
+    
+    
+    
+    transform: translateY(-30000px)
+    
+    
+    
+  }
+  
+  
+  
+  100%{
+    
+    
+    
+    transform: translateY(0)
+    
+    
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fade{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slide{
+  0% {
+     opacity: 0;
+  }
+  100% {
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
